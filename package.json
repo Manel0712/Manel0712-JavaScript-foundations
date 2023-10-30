@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Manel0712/Manel0712-JavaScript-foundations/issues"
   },
-  "homepage": "https://github.com/Manel0712/Manel0712-JavaScript-foundations#readme"
+  "homepage": "https://github.com/Manel0712/Manel0712-JavaScript-foundations#readme",
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
 }
