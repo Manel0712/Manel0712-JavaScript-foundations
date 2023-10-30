@@ -1,0 +1,19 @@
+{
+  "name": "javascript-foundation-schallenge-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manel0712/Manel0712-JavaScript-foundations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manel0712/Manel0712-JavaScript-foundations/issues"
+  },
+  "homepage": "https://github.com/Manel0712/Manel0712-JavaScript-foundations#readme"
+}
