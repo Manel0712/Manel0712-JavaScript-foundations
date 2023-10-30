@@ -4,7 +4,7 @@
     2. Log the result of any function call.
 */
 function getTypeOf(value) {
-    return typeof value;
+  return typeof value;
 }
 
 console.log("Manel", getTypeOf("Manel")); //string
