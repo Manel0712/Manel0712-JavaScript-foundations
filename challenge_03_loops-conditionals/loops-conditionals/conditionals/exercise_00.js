@@ -11,13 +11,11 @@
 
 console.log("Animal Checker Program");
 let animal = "2";
-if(animal=="cat") {
-    console.log("Meow!");
+if (animal == "cat") {
+  console.log("Meow!");
+} else if (animal == "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Debe ser un extraterrestre");
 }
-else if(animal=="dog") {
-    console.log("Woof!");
-}
-else {
-    console.log("Debe ser un extraterrestre");
-}
-console.log("---Control de animales completo---")
+console.log("---Control de animales completo---");

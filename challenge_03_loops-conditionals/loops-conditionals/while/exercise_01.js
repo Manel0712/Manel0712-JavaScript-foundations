@@ -6,11 +6,11 @@
 
 let i = 10;
 let c = 11;
-while (i<=40) {
-    console.log(i);
-    i=i+2;
+while (i <= 40) {
+  console.log(i);
+  i = i + 2;
 }
-while (c<=40) {
-    console.log(c);
-    c=c+2;
+while (c <= 40) {
+  console.log(c);
+  c = c + 2;
 }

@@ -19,16 +19,16 @@
     All, done!
 */
 let i = 1;
-while (i<=100) {
-    if (i % 10 == 0) {
-      if (i == 50) {
-        console.log("Half way there!");
-      } else if (i == 100) {
-        console.log("You made it!");
-      } else {
-        console.log("Checkpoint! " + i);
-      }
+while (i <= 100) {
+  if (i % 10 == 0) {
+    if (i == 50) {
+      console.log("Half way there!");
+    } else if (i == 100) {
+      console.log("You made it!");
+    } else {
+      console.log("Checkpoint! " + i);
     }
-    i++;
+  }
+  i++;
 }
-console.log("All, done!")
+console.log("All, done!");
