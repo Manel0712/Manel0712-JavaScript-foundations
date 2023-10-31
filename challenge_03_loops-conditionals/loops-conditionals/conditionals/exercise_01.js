@@ -7,3 +7,11 @@
 
     HINT: modulus operator ( % ) is your friend
 */
+
+let number = 9;
+if (number%2==0) {
+    console.log(number+" es parell");
+}
+else {
+    console.log(number+" es imparell")
+}
