@@ -4,13 +4,17 @@
     2. Create a while loop that will print out all the odd numbers between 10 and 40.
 */
 
-let i = 10;
-let c = 11;
-while (i <= 40) {
-  console.log(i);
-  i = i + 2;
+let evennumbers = 10;
+let oddnumbers = 10;
+while (evennumbers <= 40) {
+  if (evennumbers%2==0) {
+    console.log(evennumbers);
+  }
+  evennumbers++;
 }
-while (c <= 40) {
-  console.log(c);
-  c = c + 2;
+while (oddnumbers <= 40) {
+  if (oddnumbers%2!=0) {
+    console.log(oddnumbers);
+  }
+  oddnumbers++;
 }

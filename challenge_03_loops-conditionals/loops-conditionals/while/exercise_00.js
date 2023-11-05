@@ -9,11 +9,11 @@
 */
 
 let loggedln = false;
-let i = 0;
+let iterations = 0;
 while (!loggedln) {
   console.log("Incorrect login credentials");
-  i++;
-  if (i == 3) {
+  iterations++;
+  if (iterations == 3) {
     loggedln = true;
   }
 }

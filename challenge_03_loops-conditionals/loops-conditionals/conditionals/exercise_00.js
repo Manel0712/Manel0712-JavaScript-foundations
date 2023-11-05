@@ -16,6 +16,6 @@ if (animal == "cat") {
 } else if (animal == "dog") {
   console.log("Woof!");
 } else {
-  console.log("Debe ser un extraterrestre");
+  console.log("Must be an alien");
 }
-console.log("---Control de animales completo---");
+console.log("---Animal check complete---");

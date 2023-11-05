@@ -8,9 +8,9 @@
     HINT: modulus operator ( % ) is your friend
 */
 
-let number = 9;
+let number = 1;
 if (number % 2 == 0) {
-  console.log(number + " es parell");
+  console.log(number + " it's even");
 } else {
-  console.log(number + " es imparell");
+  console.log(number + " is odd");
 }
