@@ -7,13 +7,13 @@
 let evennumbers = 10;
 let oddnumbers = 10;
 while (evennumbers <= 40) {
-  if (evennumbers%2==0) {
+  if (evennumbers % 2 == 0) {
     console.log(evennumbers);
   }
   evennumbers++;
 }
 while (oddnumbers <= 40) {
-  if (oddnumbers%2!=0) {
+  if (oddnumbers % 2 != 0) {
     console.log(oddnumbers);
   }
   oddnumbers++;
