@@ -10,12 +10,17 @@
 */
 
 console.log("Animal Checker Program");
-let animal = "2";
-if (animal == "cat") {
-  console.log("Meow!");
-} else if (animal == "dog") {
-  console.log("Woof!");
-} else {
-  console.log("Must be an alien");
+function animals(animal) {;
+  let message = "Must be an alien";
+  if (animal == "cat") {
+    message = "Meow!";
+  }
+  if (animal == "dog") {
+    message = "Woof!";
+  }
+  return message;
 }
+console.log(animals("cat"));
+console.log(animals("dog"));
+console.log(animals(2));
 console.log("---Animal check complete---");

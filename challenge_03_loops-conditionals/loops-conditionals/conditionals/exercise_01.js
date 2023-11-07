@@ -8,9 +8,12 @@
     HINT: modulus operator ( % ) is your friend
 */
 
-let number = 1;
-if (number % 2 == 0) {
-  console.log(number + " it's even");
-} else {
-  console.log(number + " is odd");
+function comparenumber(number) {
+  let message = number + " it's odd";
+  if (number%2==0) {
+    message = number + " it's even";
+  }
+  return message
 }
+console.log(comparenumber(2));
+console.log(comparenumber(19));
