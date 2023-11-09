@@ -9,5 +9,5 @@
 
 for (let iterations = 1; iterations <= 10; iterations++) {
   let randomnumber = Math.floor(Math.random() * 10) + 1;
-  randomnumber >= 5? console.log("¡Logged In!"):console.log("¡Logged Out!");
+  randomnumber >= 5 ? console.log("¡Logged In!") : console.log("¡Logged Out!");
 }

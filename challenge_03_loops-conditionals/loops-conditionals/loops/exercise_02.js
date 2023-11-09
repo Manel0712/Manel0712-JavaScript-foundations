@@ -20,6 +20,12 @@
 */
 
 for (let i = 1; i <= 100; i++) {
-  i % 10 === 0? (i===50? console.log("Half way there!"): i===100? console.log("You made it!"):console.log("Checkpoint! " + i)):undefined;
+  i % 10 === 0
+    ? i === 50
+      ? console.log("Half way there!")
+      : i === 100
+      ? console.log("You made it!")
+      : console.log("Checkpoint! " + i)
+    : undefined;
 }
 console.log("¡All, done!");

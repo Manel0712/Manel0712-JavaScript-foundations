@@ -10,10 +10,10 @@
 
 function comparenumber(number) {
   let message = number + " it's odd";
-  if (number%2===0) {
+  if (number % 2 === 0) {
     message = number + " it's even";
   }
-  return message
+  return message;
 }
 console.log(comparenumber(2));
 console.log(comparenumber(19));

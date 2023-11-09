@@ -10,7 +10,7 @@
 */
 
 console.log("Animal Checker Program");
-function animals(animal) {;
+function animals(animal) {
   let message = "Must be an alien";
   if (animal === "cat") {
     message = "Meow!";
