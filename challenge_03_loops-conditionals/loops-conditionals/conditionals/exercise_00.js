@@ -12,10 +12,10 @@
 console.log("Animal Checker Program");
 function animals(animal) {;
   let message = "Must be an alien";
-  if (animal == "cat") {
+  if (animal === "cat") {
     message = "Meow!";
   }
-  if (animal == "dog") {
+  if (animal === "dog") {
     message = "Woof!";
   }
   return message;
