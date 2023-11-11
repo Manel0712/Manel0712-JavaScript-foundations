@@ -19,17 +19,17 @@
     All, done!
 */
 function readnumbers(number) {
-    let message = "Checkpoint! " + number;
-    if (number===50) {
-      message = "Half way there!";
-    }
-    if (number===100) {
-      message = "You made it!";
-    }
-    return message;
+  let message = "Checkpoint! " + number;
+  if (number === 50) {
+    message = "Half way there!";
+  }
+  if (number === 100) {
+    message = "You made it!";
+  }
+  return message;
 }
 for (let numbers = 1; numbers <= 100; numbers++) {
-  if (numbers%10===0) {
+  if (numbers % 10 === 0) {
     console.log(readnumbers(numbers));
   }
 }
