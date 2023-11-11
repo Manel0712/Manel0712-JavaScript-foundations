@@ -18,14 +18,19 @@
     You made it!
     All, done!
 */
-
-for (let i = 1; i <= 100; i++) {
-  i % 10 === 0
-    ? i === 50
-      ? console.log("Half way there!")
-      : i === 100
-      ? console.log("You made it!")
-      : console.log("Checkpoint! " + i)
-    : undefined;
+function readnumbers(number) {
+    let message = "Checkpoint! " + number;
+    if (number===50) {
+      message = "Half way there!";
+    }
+    if (number===100) {
+      message = "You made it!";
+    }
+    return message;
+}
+for (let numbers = 1; numbers <= 100; numbers++) {
+  if (numbers%10===0) {
+    console.log(readnumbers(numbers));
+  }
 }
 console.log("¡All, done!");
