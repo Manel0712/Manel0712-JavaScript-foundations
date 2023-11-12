@@ -18,7 +18,7 @@
     You made it!
     All, done!
 */
-function readnumbers(number) {
+function readNumbers(number) {
   let message = "Checkpoint! " + number;
   if (number === 50) {
     message = "Half way there!";
@@ -30,7 +30,7 @@ function readnumbers(number) {
 }
 for (let numbers = 1; numbers <= 100; numbers++) {
   if (numbers % 10 === 0) {
-    console.log(readnumbers(numbers));
+    console.log(readNumbers(numbers));
   }
 }
 console.log("¡All, done!");

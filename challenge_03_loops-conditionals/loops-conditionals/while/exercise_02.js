@@ -19,7 +19,7 @@
     All, done!
 */
 let numbers = 1;
-function readnumbers(number) {
+function readNumbers(number) {
   let message = "Checkpoint! " + number;
   if (number === 50) {
     message = "Half way there!";
@@ -31,7 +31,7 @@ function readnumbers(number) {
 }
 while (numbers <= 100) {
   if (numbers % 10 === 0) {
-    console.log(readnumbers(numbers));
+    console.log(readNumbers(numbers));
   }
   numbers++;
 }
