@@ -14,12 +14,12 @@ const boolean = true;
 const nullValue = null;
 const UndefinedValue = undefined;
 
-console.log({string});
+console.log({ string });
 
-console.log({number});
+console.log({ number });
 
-console.log({boolean});
+console.log({ boolean });
 
-console.log({nullValue});
+console.log({ nullValue });
 
-console.log({UndefinedValue});
+console.log({ UndefinedValue });
